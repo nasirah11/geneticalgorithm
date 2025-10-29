@@ -10,7 +10,7 @@ st.set_page_config(
 #overall = st.Page('Overall_PLO.py', title="Overall PLO")
 genetic = st.Page('ga.py', title='Genetic Algorithm', icon=":material/business:")
 travelling = st.Page('tsp.py', title='Travelling Salesman', icon=":material/business:")
-home = st.Page('home.py', title='Homepage', default=True, icon=":material/home:")
+home = st.Page('main.py', title='Homepage', default=True, icon=":material/home:")
 
 pg = st.navigation(
         {
